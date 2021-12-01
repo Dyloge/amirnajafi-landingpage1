@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap Theme</title>
+</head>
+<body>
+  
+  <!---NAVBAR-->
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+    <div class="container">
+      <a href="#home" class="navbar-brand">
+        <img src="img/2.png" width="50" height="50" alt="">
+        <h3 id="brand" class="d-inline align-end" style="color:#db2259">Dylog</h3>
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About US</a>
+          </li>
+          <li class="nav-item">
+            <a href="#team" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--SHOWCASE SLIDER-->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <!--INNER-->
+      <div class="carousel-inner">
+      <!--FIRST ITEM-->
+        <!--Background Image-->
+        <div class="carousel-item carousel-image-1 active">
+          <!--Caption-->
+          <div class="container">
+            <div class="carousel-caption mb-5">
+              <h3>Heading One</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit temporibus sed aut? Optio, exercitationem ullam.</p>
+              <!--Button-->
+              <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
+            </div>
+          </div>
+        </div>
+        <!--SECOND ITEM-->
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption mb-5">
+              <h3>Heading Two</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit temporibus sed aut? Optio, exercitationem ullam.</p>
+              <a href="#" class="btn btn-danger btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <!--THIRD ITEM-->
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption mb-5">
+              <h3>Heading Three</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit temporibus sed aut? Optio, exercitationem ullam.</p>
+              <a href="#" class="btn btn-danger btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--INDICATORS-->
+      <ol class="carousel-indicators">
+        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+      </ol>
+      <!--CONTROLERS-->
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!--HOME ICON SECTION  -->
+  <section id="home-icons" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-laugh-wink fa-3x"></i>
+          <h3>Laugh</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-flushed fa-3x"></i>
+          <h3>Flushed</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-meh-rolling-eyes fa-3x"></i>
+          <h3>Meh Rolling Eyes</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOME HEADING SECTION -->
+  <section id="home-heading" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            <h1>Are You Ready To Get Started?</h1>
+            <p class="d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est eaque magni sit dolores. Nisi, dolor nam modi perspiciatis
+              consequatur soluta.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INFO SECTION -->
+  <section id="info" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h3>Lorem Ipsum</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet blanditiis incidunt iusto corrupti illum
+            cum laudantium ex sequi amet.</p>
+          <a href="about.html" class="btn btn-danger btn-lg">Learn More</a>
+        </div>
+        <div class="col-md-6">
+          <img src="img/5.png" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO PLAY -->
+  <section id="video-play">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <a href="#" class="video" data-bs-video="https://www.youtube.com/embed/YE7VzlLtp-4" data-bs-toggle="modal" 
+            data-bs-target="#videoModal">
+              <i class="fas fa-play fa-3x"></i>
+            </a>
+            <h1>See What We Do</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- VIDEO MODAL -->
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <iframe height="350" width="100%" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NEWSLETTER -->
+  <section id="newsletter" class="text-center p-5 bg-tertiary">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Sign Up For Our Newsletter</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio asperiores consectetur, quae ducimus voluptates
+            vero repellendus architecto maiores recusandae mollitia?</p>
+        </div>
+      </div>
+      <div class="row gx-2">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Enter Name">
+        </div>
+        <div class="col">
+          <input type="email" class="form-control" placeholder="Enter Email">
+        </div>
+        <div class="col-auto">
+          <a href="about.html" class="btn btn-danger ">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO GALLERY-->
+  <section id="photo gallery" class="text-center p-5 bg-dark text-white">
+    <div class="container">
+        <div class="intro">
+            <h2 class="text-center">Photo Gallery</h2>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae libero atque quidem fuga quibusdam repellat?</p>
+        </div>
+    </div>
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-3">
+              <a href="img/gallery (1).jpg" class="fancybox" rel="ligthbox">
+                  <img  src="img/gallery (1).jpg" class="zoom img-fluid mb-3"  alt="">
+              </a>
+          </div>
+          <div class="col-lg-3">
+              <a href="img/gallery (2).jpg"  class="fancybox" rel="ligthbox">
+                  <img  src="img/gallery (2).jpg" class="zoom img-fluid mb-3"  alt="">
+              </a>
+          </div>
+          <div class="col-lg-3">
+              <a href="img/gallery (3).jpg" class="fancybox" rel="ligthbox">
+                  <img  src="img/gallery (3).jpg" class="zoom img-fluid mb-3 "  alt="">
+              </a>
+          </div>
+          <div class="col-lg-3">
+              <a href="img/gallery (4).jpg"  class="fancybox" rel="ligthbox">
+                  <img  src="img/gallery (4).jpg" class="zoom img-fluid mb-3"  alt="">
+              </a>
+          </div>
+          <div class="col-lg-3">
+              <a href="img/gallery (5).jpg" class="fancybox" rel="ligthbox">
+                  <img  src="img/gallery (5).jpg" class="zoom img-fluid mb-3 "  alt="">
+              </a>
+          </div>
+          <div class="col-lg-3">
+              <a href="img/gallery (6).jpg"  class="fancybox" rel="ligthbox">
+                  <img  src="img/gallery (6).jpg" class="zoom img-fluid mb-3"  alt="">
+              </a>
+          </div>
+          <div class="col-lg-3">
+              <a href="img/gallery (7).jpg" class="fancybox" rel="ligthbox">
+                  <img  src="img/gallery (7).jpg" class="zoom img-fluid mb-5 "  alt="">
+              </a>
+          </div>
+          <div class="col-lg-3">
+              <a href="img/gallery (8).jpg"  class="fancybox" rel="ligthbox">
+                  <img  src="img/gallery (8).jpg" class="zoom img-fluid mb-5"  alt="">
+              </a>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4 text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year" ></span>
+            <span style="color:#db2259">Dyloge</span> 
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+  <script>
+      //Get the current year for the copyright
+  $('#year').text(new Date().getFullYear());
+  </script>
+
+  <script>
+  $(document).ready(function(){
+    $(".fancybox").fancybox({
+          openEffect: "none",
+          closeEffect: "none"
+      });
+      
+      $(".zoom").hover(function(){
+      
+      $(this).addClass('transition');
+    }, function(){
+          
+      $(this).removeClass('transition');
+    });
+  });
+  </script>
+      // Video Play
+  <script>
+    $(function () {
+      // Auto play modal video
+      $(".video").click(function () {
+        var theModal = $(this).data("bs-target"),
+          videoSRC = $(this).attr("data-bs-video"),
+          videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+        $(theModal + ' iframe').attr('src', videoSRCauto);
+        $(theModal + ' button.close').click(function () {
+          $(theModal + ' iframe').attr('src', videoSRC);
+        });
+      });
+    });
+  </script>
+    
+</body>
+</html>
